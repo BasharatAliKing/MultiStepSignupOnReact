@@ -1,0 +1,53 @@
+body{
+    background-color: orange;
+}
+.form{
+    margin: auto;
+    margin-top: 100px;
+    width: 250px;
+    height: 300px;
+}
+.progressbar .king{
+    background-color: blue;
+    color: blue;
+    height: 5px;
+    margin: 20px 0px;
+}
+.header{
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+
+}
+.form-container{
+    background-color: white;
+    padding: 20px;
+}
+.form input{
+    margin:5px 0px;
+    border: 2px solid rgba(0, 0, 0, 0.671);
+    border-radius: 5px;
+    padding: 3px;
+    color: black;
+    width: 100%;
+}
+.footer{
+    text-align: center;
+}
+.footer button{
+    background-color: blue;
+    padding: 5px 10px;
+    margin: 0px 5px;
+    border: none;
+    font-size: 16px;
+    color: white;
+}
+.form-container{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+/* .body .signup-container-form{
+    display: flex;
+    flex-direction: column;
+} */
